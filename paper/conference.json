@@ -1,0 +1,23 @@
+[
+    {
+        "authors": "J. Gao, C. wen, and M. Liu",
+        "title": "A two-layer detection model for infrared slow lowaltitude targets",
+        "publication": "Proc. Chinese Automation Congress (CAC)",
+        "ext-info": "pp. 1401-1406, 2017",
+        "link": "pdf/2017-CAC-TwoLayerModel.pdf"
+    },
+    {
+        "authors": "J. Gao, C. wen, and M. Liu",
+        "title": "Steel surface defect detection and localization based on SVD and two-side compressive measurements",
+        "publication": "Proc. the 26th Chinese Control and Decision Conference (CCDC)",
+        "ext-info": "pp. 1401-1406, 2014",
+        "link": "pdf/2014-CCDC-SteelDefect.pdf"
+    },
+    {
+        "authors": "J. Gao, C. wen, and M. Liu",
+        "title": "SVD-based scattered small targets detection",
+        "publication": "Proc. International Conference on Multisensor Fusion and Information Integration for Intelligent Systems",
+        "ext-info": "2014",
+        "link": "pdf/2014-MFI-SVDDetection.pdf"
+    }
+]

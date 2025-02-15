@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html class="csstransforms csstransforms3d csstransitions">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>VCML Group</title>
+		<link href="./style/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./style/style.css" rel="stylesheet" type="text/css" media="all">
+		<link href="./style/prettyPhoto.css" rel="stylesheet" type="text/css" media="all">		
+		<link href="./style/css" rel="stylesheet" type="text/css">	
+		<script charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/btype.js"></script>
+		<script type="text/javascript" charset="utf-8" src="chrome-extension://jgphnjokjhjlcnnajmfjlacjnjkhleah/js/chrome.js"></script>
+		<script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script>
+		<style>
+			.people-photo {
+				border-radius: 50%;
+				height:200px!important;
+				width:200px!important;
+				box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+				margin-bottom: 20px;
+			}
+			.thumbnail-vcml{
+				padding: 4px;
+				margin-bottom: 20px;
+				line-height: 1.42857143;
+				text-align: center
+			}
+			.thumbnail-people{
+				padding: 4px;
+				margin-bottom: 20px;
+				height: 340px;
+				line-height: 1.42857143;
+				text-align: center
+			}
+			.container{
+				font-family: Palatino Linotype, Helvetica Neue, Helvetica, Arial, sans-serif;
+			}
+
+			.academicegree{
+				font-size: 2.28rem;
+				/* line-height: 110%; */
+				margin: 1.14rem 0 0.912rem 0;
+			}
+			.row:nth-child(2n){
+				background:whitesmoke;
+			}
+			.row {
+				margin-bottom: 50px;
+			}
+			.people-topic {
+				font-style: italic;
+				color: #1a237e;
+			}
+		</style>
+		<script> 
+			var lastname = 'Me';
+			function func(name){
+				var div = document.getElementById(name); 
+				div.className = 'active'; 
+				div = document.getElementById(lastname); 
+				div.className = ''; 
+				lastname = name;
+			}
+			function coming_soon()
+			{
+				alert("Coming soon.");
+			}
+			
+		</script> 
+	
+	</head>
+	<body>
+	<!---start-wrap--->
+		<!---start-header--->
+		<div class="header">
+			<div class="wrap">
+				<!---start-logo--->
+				<div class="logo">
+					<a href="https://jingligao.github.io/index.html">Jingli Gao</a>
+				</div>
+				<!---End-logo--->
+				<!---start-top-nav--->
+				<div class="top-nav">
+					<ul>
+						<li id="Home" onClick="func(&#39;Me&#39;)"><a href="https://jingligao.github.io/index.html" class="scroll">Home</a></li>
+						<li id="Profile" onClick="func(&#39;Profile&#39;)"><a href="https://jingligao.github.io/profile.html" class="scroll">Profile</a></li>
+						<li id="Publications" onClick="func(&#39;Publications&#39;)"><a href="https://jingligao.github.io/pub.html" class="scroll">Publications</a></li>
+						<!---<li id="Profile-chinese" onclick="func(&#39;Honors Awards&#39;)"><a href="https://jingligao.github.io/Honors%20Awards.html" class="scroll">Honors &amp; Awards</a></li>--->
+						<li id="VCMLLab" onClick="func(&#39;VCML Lab&#39;)"><a href="https://jingligao.github.io/lab.html" class="scroll">VCML Group</a></li>
+											<!--<li id="Projects" onclick="func(&#39;Projects&#39;)"><a href="./Project.html" class="scroll">Projects</a></li>-->
+						<!-- <li id="Art" onclick="func(&#39;Art&#39;)"><a href="http://www.icst.pku.edu.cn/struct/people/yangs/index.html#art" class="scroll">Art Gallery</a></li>	-->
+						<li id="Profile-chinese" onClick="func(&#39;profile-chinese&#39;)"><a href="https://jingligao.github.io/profile-chinese.html" class="scroll">中文简介</a></li>
+						<li id="Contact" onClick="func(&#39;Contact&#39;)"><a href="https://jingligao.github.io/contact.html" class="scroll">Contact</a></li>
+					</ul>
+				</div>
+				<div class="clear"> </div>
+				<!---End-top-nav--->
+			 </div>
+		</div>
+		<div class="container" style="margin-top: 150px;">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="thumbnail-vcml">
+						<a href="#">
+							<img src="./lab/vcml.png">
+						</a>
+						</br>
+					</br>
+						<div class="caption">
+							<!---<h4><b>INTRODUCTION</b></h4>--->
+							<p style="margin-top:10px">
+							The <strong>V</strong>isual <strong>C</strong>omputing and <strong>M</strong>achine <strong>L</strong>earning Group (VCML Group) was established in July 2015, 
+								and the director is A.P. Jingli Gao. There are more than 5 graduate students and undergraduate interns, mainly engaged in vision understanding and processing, and other 								related research fields.
+							</p>
+						</div>
+					</div>
+				</div>
+		    </div>
+			<div class="row">
+				<div class="col-md-12 academicegree">
+					<h4 class="text-center  black-text">Faculty</h4>
+				</div>
+				<div class="col-md-12">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./lab/gjl.jpg" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b><a href="https://jingligao.github.io/index.html"  target="_blank"><font color="#1C86EE">Jingli Gao (高敬礼)</font></a></b></h3>
+							<p>Associate Professor, Director</p>
+							<p>河南省教育厅学术技术带头人、平顶山市青年科技专家</p>
+							<p class="people-topic">Computer Vision, Multimedia Computing</p>
+						</div>
+					</div>
+				</div>
+			</div>
+<!--	        <div class="row">
+				<div class="col-md-12 academicegree">
+					<h4 class="text-center  black-text">Academic Advisor</h4>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./VCMLLab/zw.png" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b><a href="http://mepro.bjtu.edu.cn/index.html"  target="_blank"><font color="#1C86EE">Wei Zhang (张伟)</font></a></b></h3>
+							<p>Professor@SDU</p>
+							<p class="people-topic">Machine Intelligence and System Control</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./VCMLLab/zy.jpg" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b><a href="http://mepro.bjtu.edu.cn/index.html"  target="_blank"><font color="#1C86EE">Yao Zhao (赵耀)</font></a></b></h3>
+							<p>Professor@BJTU</p>
+							<p>IEEE Fellow、长江学者、国家杰青、万人领军</p>
+							<p class="people-topic">Multimedia Computing and Perception</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./VCMLLab/SAM.jpg" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b><a href="https://www.cs.cityu.edu.hk/~cssamk/research_group/"  target="_blank"><font color="#1C86EE">Sam Kwong (邝得互)</font></a></b></h3>
+							<p>Chair Professor@CityU</p>
+							<p>IEEE Fellow</p>
+							<p class="people-topic">Video Coding and Analysis</p>
+						</div>
+					</div>
+				</div>
+		    </div> -->
+
+	<!-- ------------------硕士研究生--------------------- -->
+		    <div class="row">
+				<div class="col-md-12 academicegree">
+					<h4 class="text-center  black-text">MS Students</h4>
+				</div>
+				
+				
+			    <!---<div class="col-md-3">
+					<div class="thumbnail-people">
+						<img src="./VCMLLab/xwl.jpg" class="people-photo">
+						<div class="caption">
+							<h3><b>Wenlong Xu</b> (徐文龙)</h3>
+							<p>co-supervised with Prof. Yao Zhao</p>
+							<p>MS, 2020 - present</p>
+							<p class="people-topic">Natural Language Processing</p>
+						</div>
+					</div>
+				</div>--->
+				<div class="col-md-3">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./lab/sxl.jpg" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b>Xiaoli Shi</b> (史肖丽)</h3>
+							<p>MS, 2022 - present</p>
+							<p class="people-topic">Salient Object Detection</p>
+						</div>
+					</div>
+				</div>
+<!--				<div class="col-md-3">
+					<div class="thumbnail-people">
+						<img src="./VCMLLab/srh.jpg" class="people-photo">
+						<div class="caption">
+							<h3><b>Ronghui Sheng</b> (盛荣晖)</h3>
+							<p>MS, 2021 - present</p>
+							<p class="people-topic">Depth Map Super-resolution</p>
+
+						</div>
+					</div>
+				</div> -->
+			    
+			   
+		   </div>
+	<!-- ------------------访问学生--------------------- -->
+<!--			<div class="row">
+				<div class="col-md-12 academicegree">
+					<h4 class="text-center  black-text">Visiting Students</h4>
+				</div>
+				
+				<div class="col-md-12">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./VCMLLab/xld.jpg" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b>Lidong Xie</b> (谢礼冬)</h3>
+							<p>VS, 2020/11 - present</p>
+							<p>Beijing Normal University</p>
+							<p class="people-topic">Low-light Image Enhancement</p>
+						</div>
+					</div>
+				</div>
+		    </div> -->
+	<!-- ------------------本科实习生--------------------- -->
+		    <div class="row">
+				<div class="col-md-12 academicegree">
+					<h4 class="text-center  black-text">Undergraduate Interns</h4>
+				</div>
+				<div class="col-md-3">
+					<div class="thumbnail-people">
+						<a href="#">
+							<img src="./lab/zmy.jpg" class="people-photo">
+						</a>
+						<div class="caption">
+							<h3><b>Mengya Zhang</b> (张梦雅)</h3>
+							<p>UI, 2022/06 - present</p>
+							<p class="people-topic">image segmentation</p>
+						</div>
+					</div>
+				</div>
+				
+			    
+			    <div class="col-md-3">
+					<div class="thumbnail-people">
+						<img src="./lab/xlf2.jpg" class="people-photo">
+						<div class="caption">
+							<h3><b>Linfei Xu</b> (徐林飞)</h3>
+							<p>UI, 2022/06 - present</p>
+							<p class="people-topic">image segmentation</p>
+						</div>
+					</div>
+				</div>
+			 
+			    
+			      
+			</div>
+	<!-- ------------------毕业学生--------------------- -->		
+<!--			<div class="row">
+				<div class="col-md-12 academicegree">
+					<h4 class="text-center  black-text">Alumni</h4>
+				</div>
+
+				<div class="col-md-3">
+					<div class="thumbnail-people">
+						<img src="./VCMLLab/zqj.jpg" class="people-photo">
+						<div class="caption">
+							<h3><b>Qijian Zhang</b> (张琦坚)</h3>
+							<p>UI, 2020/01 - 2020/12</p>
+							<p>Now: 香港城市大学博士</p>
+							<p class="people-topic">Co-salient Object Detection</p>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="col-md-3">
+					<div class="thumbnail-people">
+						<img src="./VCMLLab/lqw.jpg" class="people-photo">
+						<div class="caption">
+							<h3><b>Qinwei Lin</b> (林秦伟)</h3>
+							<p>UI, 2020/09 - 2021/06</p>
+							<p>Now: 清华大学深研院硕士</p>
+							<p class="people-topic">RGB-D Salient Object Detection</p>
+						</div>
+					</div>
+				</div>
+
+				
+		    </div> -->
+		</div>
+		<script type="text/javascript" src="./style/jquery.min.js.下载"></script>
+		<script type="text/javascript" src="./style/bootstrap.js.下载"></script>
+		<script type="text/javascript" src="./style/jquery.banner.js.下载"></script>
+		<script type="text/javascript" src="./style/jquery.prettyPhoto.js.下载"></script>		
+		<script type="text/javascript" src="./style/jquery.isotope.js.下载"></script>	
+		<script type="text/javascript" src="./style/main.js.下载"></script>		
+ </body>
+</html>

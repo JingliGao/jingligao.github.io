@@ -6,7 +6,7 @@
 		<meta name="description" content="Jingli Gao, Publication, " >
 		<meta name="keywords" content="Jingli Gao, Machine Learning, Computer Vision, Robotics,  Sentiment Computing, Deep Learning, Object Detection" >
 		<title>Jingli Gao's Selected Publications</title>
-		<link rel="stylesheet" href="my.css" type="text/css" />
+		<link rel="stylesheet" href="./style/my.css" type="text/css" />
 		<style type="text/css">
 			div.noshow { display: none;}
 		</style>
@@ -99,7 +99,7 @@
 			</div>
 
 			<div id="left">
-				<img src="gjl.jpg" alt="" width="241" height="345" /><!--width="285" height="325" /-->
+				<img src="./img/gjl.jpg" alt="" width="241" height="345" /><!--width="285" height="325" /-->
 				<p>&nbsp;</p>
 				<div>
 					<h2>Link</h2>
@@ -114,8 +114,63 @@
 		  <div id="content">			
 		  <ol>
 				<!--<p> A more comprehensive publication list: <a href="https://scholar.google.com/citations?user=Pq4Yp_kAAAAJ&hl=en">Google Scholar</a></p> -->
-<p><strong>[2022]</strong></p>	
 
+			<p><strong>[2024]</strong></p>	
+			<!--One paper start-->
+			<li id="gao-etal-2024-seg-weld" class="entry">
+				A segmentation network based on residual blocks and multi-channel images, <strong><font color="#ff6666"> 2024 3rd International Conference on Image Processing and Media Computing</font></strong>, 2024.
+				<a href="javascript:toggleInfo('gao-etal-2024-seg-weld','bibtex')">[BibTeX]</a><a href="https://ieeexplore.ieee.org/document/10586689">[PDF]</a><a href="javascript:toggleInfo('gao-etal-2024-seg-weld','abstract')">[Abstract]</a> 
+			<div class="author"><strong>Jingli Gao</strong>, Mengya Zhang,Li Ma,Miao Huang, Zhen Li. </div>
+			</li>
+			<div id="bib_gao-etal-2024-seg-weld" class="bibtex noshow">
+			<b>BibTeX</b>:
+			<pre>
+			@INPROCEEDINGS{gao-etal-2024-seg-weld,
+				author={Gao, Jingli and Zhang, Mengya and Ma, Li and Huang, Miao and Li, Zhen},
+				booktitle={2024 3rd International Conference on Image Processing and Media Computing (ICIPMC)}, 
+				title={A segmentation network based on residual blocks and multi-channel images}, 
+				year={2024},
+				volume={},
+				number={},
+				pages={137-143},
+				keywords={Location awareness;Image segmentation;Sensitivity;Welding;Media;Inspection;Feature extraction;image segmentation;weld defects;quality inspection;UNet},
+				doi={10.1109/ICIPMC62364.2024.10586689}}
+			</pre>
+			</div>
+			<div id="abs_gao-etal-2024-seg-weld" class="abstract noshow">
+				<b>Abstract</b>: As an indispensable key process in the industrial chain, the demand of welding could continue to maintain stable growth. However, various defects could inevitably occur in the welding process, and undetected defects could directly affect the bearing capacity and service life of the welding device. Therefore, it is necessary to develop intelligent detection algorithms for non-destructive quality inspection of the welding products. In this paper, we convert the localization problem and category classification problem of weld defects into a pixel classification problem, and propose a u-shaped segmentation network based on residual blocks and the concatenated multi-channel images, called CatResUNet. First, we concatenate the original weld image and the reversed image to enrich the input data, and obtain a doubled-channel image. We then use residual blocks as the backbone of the encoder of the u-shaped network to extract the weld defect features from the obtained doubled-channel image, and use the skip connection to fuse the underlying features from the encoder and the high-level features of the decoder to ensure the accuracy and detail retention ability of defect segmentation. Finally, we use the convolutional layers instead of the fully connected layers to perform pixel-level classification. Experimental results demonstrate that appending the reversed image to the original image to expand the network’s input channels could enrich the information that was fed into the network, hence effectively reducing the rate of missed and false detections, it is a crucial aspect for weld defect detection. Compared with CatUNet which is a standard u-shaped network based on doubled-channel images, the introduction of the residual blocks can help our CatResUNet network to achieve better or basically equivalent evaluation indicators. Furthermore, compared with the other three approaches, the higher dice coefficient and IOU values achieved by our CatResUNet network indicate its enhanced sensitivity to small targets while maintaining excellent performance for large target segmentation tasks. This ensures that while preserving the model’s ability to segment large defects accurately, it also improves its sensitivity to small defects.
+			</div>
+			<!--one journal paper end-->
+			<p><strong>[2023]</strong></p>	
+
+			<!--One paper start-->
+			<li id="gao-etal-2023-class-weld" class="entry">
+				A unified binary classification network for weld image detection, <strong><font color="#ff6666"> 2023 8th International Conference on Control, Robotics and Cybernetics</font></strong>, 2023.
+				<a href="javascript:toggleInfo('gao-etal-2023-class-weld','bibtex')">[BibTeX]</a><a href="https://ieeexplore.ieee.org/document/10488660">[PDF]</a><a href="javascript:toggleInfo('gao-etal-2023-class-weld','abstract')">[Abstract]</a> 
+			<div class="author"><strong>Jingli Gao</strong>, Mengya Zhang,Li Ma,Miao Huang, Zhen Li. </div>
+			</li>
+			<div id="bib_gao-etal-2023-class-weld" class="bibtex noshow">
+			<b>BibTeX</b>:
+			<pre>
+			@INPROCEEDINGS{gao-etal-2023-class-weld,
+				author={Gao, Jingli and Zhang, Mengya and Ma, Li and Huang, Miao and Li, Zhen},
+				booktitle={2023 8th International Conference on Control, Robotics and Cybernetics (CRC)}, 
+				title={A unified binary classification network for weld image detection}, 
+				year={2024},
+				volume={},
+				number={},
+				pages={275-279},
+				keywords={Convolution;Shape;Welding;Transfer learning;Manuals;Inspection;Feature extraction;weld image detection;transfer learning;binary classification;quality inspection},
+				doi={10.1109/CRC60659.2023.10488660}}
+			</pre>
+			</div>
+			<div id="abs_gao-etal-2023-class-weld" class="abstract noshow">
+				<b>Abstract</b>: Quality inspection is one of the important measures to ensure the quality of welding products. In the generation process, there is a lack of weld defects, irregular shape of defects, and unbalanced defect categories, which makes the detection of weld images difficult. At present, the quality inspection of welding products is still carried out by manual inspection of their X-ray images. It is urgent to solve the primary problem of detection that determines whether there is a defect in a weld image. In this paper, we propose a weld image detection method which is converted into a binary classification problem. Our method consists of a feature extraction module and a classification module. The feature extraction module uses residual network to extract feature map based on model parameters learned from large-scale ImageNet dataset, which is fine-tuned on weld images. The classification module combines global average pooling and convolution layers instead of fully collected layer to classify weld images. Experiments show that our proposed method achieves 97.65% true positive rate and 99.85% true negative rate on the weld image dataset. and has better generalization performance in comparison with other methods.
+			</div>
+			<!--one journal paper end-->
+				
+
+<p><strong>[2022]</strong></p>	
 <!--One paper start-->
 <li id="wang-etal-2022-social" class="entry">
     A comprehensive social matrix factorization for recommendations with prediction and feedback mechanisms by fusing trust relationships and social tags, <strong><font color="#ff6666"> Soft Computing</font></strong>, 2022, (8): 1-18.
